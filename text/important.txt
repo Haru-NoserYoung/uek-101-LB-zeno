@@ -1,0 +1,10 @@
+index:
+Titelbild -> Karussell
+Button mit einem Link zum Blog
+
+blog:
+Titelbild Statisch
+BlogTitel Backround 30% vom Bild
+
+kontakt:
+Bei "Senden" wird man auf die Index Seite weitergeleitet
