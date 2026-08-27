@@ -1,0 +1,71 @@
+body {
+    background-color: #101817;
+}
+
+/* Header start */
+header {
+    background-color: #DDE8E0;
+}
+    /* logo */
+#hdrimg {
+    width: 30%;
+    height: auto;
+}
+    /* buttons */
+#hdrbtns {
+
+}
+
+.index {
+    color: #1A2421;
+    text-decoration: none
+}
+
+.contact {
+    color: #1A2421;
+    text-decoration: none
+}
+
+.blog {
+    color: #1A2421;
+    text-decoration: none;
+}
+    /* dropdown */
+/* header end */
+
+/* carousel start (+text on top of it) */
+#carouselExampleAutoplaying {
+    z-index: 0;
+}
+
+#BlogTitle {
+    z-index: 1;
+    font-size: 100%;
+}
+
+.carousel-container {
+    position: relative;
+}
+
+.carousel-text {
+    position: absolute;
+    z-index: 1;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color: #F3F5F2;
+    text-align: center;
+
+    background-color: #8FAF9A;
+
+    border-radius: 20px;
+}
+
+.carousel-item img {
+    width: 100%;
+    aspect-ratio: 16 / 7;
+    object-fit: cover;
+}
+/* carousel end */
