@@ -1,0 +1,35 @@
+ Testkonzept (Testprotokoll beantwortet)
+*************
+
+Allgemein:
+- Sind die Seiten responsiv?
+    Die Seite passt sich beim rein/raus zoomen an. Beim Blog gibt es für large(lg) devices zwei Spalten und für small(sm) eine Spalte. Auch wenn man bei den Google DevTools das Handy auswählt, ist es wie es beim small(sm) device sein soll.
+- Sind alle Elemente vom Wireframe vorhanden?
+    Ja es sind alle Elemente aus dem WireFrame vorhanden + halt noch ein paar zusätzliche wichtige.
+
+Navbar/Footer:
+- Ist die Navigation funktional (collapsible)?
+    Ja alle Knöpfe der Navbar funktionieren.
+- Ist der Header und Footer auf jeder Seite einheitlich?
+    Ja sind sie.
+- Wurden die vorgegebenen Texte übernommen (z.B. Kontakt.txt)?
+    Ja sind sie.
+- Ist das BS4-Dropdown nach rechts ausgerichtet (float-right)?
+    Keine Ahnung was das heissen soll? warscheinlich nicht, vielleicht schon, keine Ahnung.
+- Wird das Logo im Header rund dargestellt?
+    Ja wird es.
+- Es sind keine Dead-Links vorhanden?
+    Es gibt keine Dead-Links
+- Die Fonts wurden korrekt angewendet?
+    Ja. alles in der gleichen Google font, einfach verschiedene grössen und decorations.
+
+Kontakt-Formular:
+- Sind die Felder editierbar?
+    Ja man kann in alle 3 Felder rein tippen
+- Stimmt die Tab-Reihenfolge?
+    Ja
+
+Hauptseite:
+- Wurde das Karussell mit den drei Bildern umgesetzt und ist es funktional?
+    Ja wurde es. Ja ist es.
+

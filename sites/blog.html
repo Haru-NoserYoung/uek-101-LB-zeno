@@ -1,37 +1,45 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Home | Sport Blog</title>
-        <link rel="icon" href="../img/logo/logo.png" type="image/png">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Blog | Sport Blog</title>
+        <link rel="icon" href="../img/logo/logo.png" type="image/png">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        
+        <!-- Google Font Import -->
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+        </style>
+
+        <!-- Eigenes Stylesheet -->
         <link rel="stylesheet" href="../style/stylesheet.css">
     </head>
     <body>
         <header>
             <nav>
+<!-- navbar -->
                 <div class="container">
                     <div class="row align-items-center" id="rbtns">
                         
-                        <div class="col-lg-2 col-sm-12 text-center">
+                        <div class="col-lg-1 col-sm-12 text-center">
                             <a href="../index.html"><img id="hdrimg" src="../img/logo/logo.png"></a>
                         </div>
-                        <div class="col-lg-2 col-sm-12 text-center">
+                        <div class="col-lg-1 col-sm-12 text-center">
                             <a class="index" href="../index.html">Index</a> 
                         </div>
-                        <div class="col-lg-2 col-sm-12 text-center">
+                        <div class="col-lg-1 col-sm-12 text-center">
                             <a class="contact" href="../sites/kontakt.html">Kontakt</a>
                         </div>
-                        <div class="col-lg-2 col-sm-12 text-center">
+                        <div class="col-lg-1 col-sm-12 text-center">
                             <a class="blog" href="../sites/blog.html">Blog</a>
                         </div>
-                        <div class="col-lg-2 col-sm-12"></div>
-                        <div class="col-lg-2 col-sm-12 text-center">
-                            
+                        <div class="col-lg-7 col-sm-12"></div>
+                        <div class="col-lg-1 col-sm-12 text-center">
+<!-- dropdown menu -->
                             <div class="dropdown" id="drpdwn">
                                 <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    ☰
+                                    ㅤMenu ☰
                                 </button>
                                 <ul class="dropdown-menu">
                                     <li><a href="../index.html" class="dropdown-item" >Index</a></li>
@@ -46,52 +54,31 @@
         </header>
         <div class="carousel-container">
 
-            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="../img/imgCarouselAndTitle/1.jpg" class="d-block w-100" alt="...">
-                    </div>
-
-                    <div class="carousel-item">
-                        <img src="../img/imgCarouselAndTitle/2.jpg" class="d-block w-100" alt="...">
-                    </div>
-
-                    <div class="carousel-item">
-                        <img src="../img/imgCarouselAndTitle/3.jpg" class="d-block w-100" alt="...">
-                    </div>
-                </div>
-
-                <button class="carousel-control-prev" type="button"
-                        data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-
-                <button class="carousel-control-next" type="button"
-                        data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
+<div id="blogimgbig" class="hero-image-container">
+    <img src="../img/imgCarouselAndTitle/2.jpg" class="d-block w-100 static-hero-img" alt="...">
+</div>
 
         </div>
-<!-- blog 2442 -->
+<!-- blog -->
             <br>
             <br>
                 <div id="imgs">
-                    <h2 id="ttlblg">Sport Blog</h2><br><hr id="hr"><br>
+                    <h2 id="ttlblg">Sport Blog</h2><br>
                     <div class="row">
                         <div class="col-lg-2 col-sm-1"></div>
+                        
                         <div class="col-lg-4 col-sm-10">
+                            <br>
                                 <div id="bp1">
                                     <img id="img1" src="../img/imgBlog/16.jpg"><br>
                                     <div id="txtblog">
-                                        <h4>Schwimmen</h4>
-                                        <p>Schwimmsport ist die Ausübung des Schwimmens als sportliche Disziplin. 
-            In seiner Grundform wird der Schwimmsport als Wettkampf mehrerer Teilnehmer um die Bewältigung einer vorgegebenen Schwimmstrecke in kürzestmöglicher Zeit ausgetragen, 
-            oder auch ohne Zeitdruck zur Verbesserung der eigenen Schwimmtechnik.Durch verschiedene Übungen erlernt man seine Wasserlage, seine Arm- oder Beinbewegungen, 
-            bzw. allgemeine Koordination des Körpers, die Körperspannung und das richtige Atmen (gerade im Leistungssport). 
-            Wichtig dabei sind das Einhalten von Pausen zwischen den einzelnen Übungen und deren Wiederholungen.</p>
+                                        <div id="bgt"><br><h4>Schwimmen</h4><br></div>
+                                        <p>Schwimmsport ist die Aus&uuml;bung des Schwimmens als sportliche Disziplin. 
+            In seiner Grundform wird der Schwimmsport als Wettkampf mehrerer Teilnehmer um die Bew&auml;ltigung einer vorgegebenen Schwimmstrecke in k&uuml;rzestm&ouml;glicher Zeit ausgetragen, 
+            oder auch ohne Zeitdruck zur Verbesserung der eigenen Schwimmtechnik.Durch verschiedene &Uuml;bungen erlernt man seine Wasserlage, seine Arm- oder Beinbewegungen, 
+            bzw. allgemeine Koordination des K&ouml;rpers, die K&ouml;rperspannung und das richtige Atmen (gerade im Leistungssport). 
+            Wichtig dabei sind das Einhalten von Pausen zwischen den einzelnen &Uuml;bungen und deren Wiederholungen.</p>
+<br>       
                                     </div>
                                 </div>
                             </div>
@@ -99,61 +86,69 @@
                             
                             
                             <div class="col-lg-4 col-sm-10">
+                                <br>
                                 <div id="bp2">
                                     <img id="img2" src="../img/imgBlog/17.jpg">
                                     <div id="txtblog">
-                                        <h4>Landhockey</h4>
+                                        <div id="bgt"><br><h4>Landhockey</h4><br></div>
                                         <p>Beschreibung: Landhockey ist ein Mannschaftssport, bei dem zwei Teams versuchen, einen circa 7 bis 8 Zentimeter grossen Kunststoffball in das gegnerische Tor zu schiessen. 
-            Dabei darf der Ball nur mit dem Hockeyschläger und nicht mit dem Körper berührt werden. Eine Ausnahme bildet der Torwart.
-            Er darf den Ball mit dem Körper abwehren. Das Spielfeld besteht aus zwei Toren mit je einem halbrunden Schusskreis, aus welchem auf das Tor geschossen werden darf, einer Spielfeldbegrenzung und der Mittellinie. </p>
+            Dabei darf der Ball nur mit dem Hockeyschl&auml;ger und nicht mit dem K&ouml;rper ber&uuml;hrt werden. Eine Ausnahme bildet der Torwart.
+            Er darf den Ball mit dem K&ouml;rper abwehren. Das Spielfeld besteht aus zwei Toren mit je einem halbrunden Schusskreis, aus welchem auf das Tor geschossen werden darf, einer Spielfeldbegrenzung und der Mittellinie. </p>
+<br>                                    
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-sm-1"></div>
                         </div>
-                        <br><br><br>
+                        
                         <div class="row">
+                            
                             <div class="col-lg-2 col-sm-1"></div>
 
                             
                             
                             <div class="col-lg-4 col-sm-10">
+                                <br>
                                 <div id="bp3">
                                     <img id="img3" src="../img/imgBlog/18.jpg">
                                     <div id="txtblog">
-                                        <h4>Basketball</h4>
-                                        <p>Basketball ist eine Ballsportart bei welcher das Ziel des Spieles ist, den Ball in den Korb zu werfen, der in einer Höhe von 3,05 Meter an den Schmalseiten des Spielfeldes angebracht ist. 
-            Jede Mannschaft versucht so viele Bälle wie möglich in den Spielkorb auf der gegenüberliegenden Seite des Spielfeldes zu werfen. 
-            Jeder Treffer des Balles in den Korb zählt dabei abhängig von der Entfernung aus der der Spieler geworfen hat, zwei oder drei Punkte. </p>
+                                        <div id="bgt"><br><h4>Basketball</h4><br></div>
+                                        <p>Basketball ist eine Ballsportart bei welcher das Ziel des Spieles ist, den Ball in den Korb zu werfen, der in einer H&ouml;he von 3,05 Meter an den Schmalseiten des Spielfeldes angebracht ist. 
+            Jede Mannschaft versucht so viele B&auml;lle wie m&ouml;glich in den Spielkorb auf der gegen&uuml;berliegenden Seite des Spielfeldes zu werfen. 
+            Jeder Treffer des Balles in den Korb z&auml;hlt dabei abh&auml;ngig von der Entfernung aus der der Spieler geworfen hat, zwei oder drei Punkte. </p>
+<br>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-sm-10">
-                            
+                            <br>
                             
                                     <div id="bp4">
                                         <img id="img4" src="../img/imgBlog/19.jpg">
                                         <div id="txtblog">
-                                        <h4>Reiten</h4>
-                                        <p>Reiten bezeichnet die Fortbewegung des Menschen auf dem Rücken eines Tieres. Dabei kann es sich um Pferde, aber auch um andere Reittiere wie Esel oder Kamele handeln.
-            Der Reiter kann auf verschiedene Weisen auf das Reittier einwirken. Die Einwirkungen werden Hilfen genannt. Zu diesen zählen Gewichtsverlagerung, Schenkeldruck, Zügel oder Leinen und die Stimme. 
-            Auch Hilfsmittel wie Gerten und Sporen dienen der Einwirkung. Dabei ist das Zusammenspiel der Hilfen für die Kommunikation mit dem Tier entscheidend, eine isolierte Hilfe ist wenig wirkungsvoll.
-            Gut ausgebildete, feinfühlige Tiere reagieren auf minimale, von außen kaum wahrnehmbare Hilfen. So erkannte der „Kluge Hans“, ein „rechnendes“ Pferd, anhand von Spannung und Erleichterung des Fragenstellers,
+                                        <div id="bgt"><br><h4>Reiten</h4><br></div>
+                                        <p>Reiten bezeichnet die Fortbewegung des Menschen auf dem R&uuml;cken eines Tieres. Dabei kann es sich um Pferde, aber auch um andere Reittiere wie Esel oder Kamele handeln.
+            Der Reiter kann auf verschiedene Weisen auf das Reittier einwirken. Die Einwirkungen werden Hilfen genannt. Zu diesen z&auml;hlen Gewichtsverlagerung, Schenkeldruck, Z&uuml;gel oder Leinen und die Stimme. 
+            Auch Hilfsmittel wie Gerten und Sporen dienen der Einwirkung. Dabei ist das Zusammenspiel der Hilfen f&uuml;r die Kommunikation mit dem Tier entscheidend, eine isolierte Hilfe ist wenig wirkungsvoll.
+            Gut ausgebildete, feinf&uuml;hlige Tiere reagieren auf minimale, von außen kaum wahrnehmbare Hilfen. So erkannte der „Kluge Hans“, ein „rechnendes“ Pferd, anhand von Spannung und Erleichterung des Fragenstellers,
             wie oft er mit dem Huf klopfen sollte.</p>
+<br>
                                     </div>
                             </div>
                             </div>
                             <div class="col-lg-2 col-sm-1"></div>
                         </div>
+                        <br>
                         <div class="row">
                             <div class="col-lg-4"></div>
                             <div class="col-lg-4">
                                     <div id="bp5">
                                         <img id="img5" src="../img/imgBlog/20.jpg">
                                         <div id="txtblog">
-                                            <h4>Tennis</h4>
-                                            <p>Tennis ist ein Rückschlagspiel, das von zwei oder vier Spielern gespielt wird. Spielt ein Spieler gegen einen anderen, so wird dies Einzel genannt, spielen je zwei Spieler gegeneinander, wird dies Doppel genannt.
-            Dieser früher in Deutschland als elitär geltende Sport hat heute auch als Breitensport eine herausragende Bedeutung erlangt. Seit 1988 ist Tennis wieder Bestandteil der Olympischen Sommerspiele. </p>
+                                            <div id="bgt"><br><h4>Tennis</h4><br></div>
+                                            <p>Tennis ist ein R&uuml;ckschlagspiel, das von zwei oder vier Spielern gespielt wird. Spielt ein Spieler gegen einen anderen, so wird dies Einzel genannt, spielen je zwei Spieler gegeneinander, wird dies Doppel genannt.
+            Dieser fr&uuml;her in Deutschland als elit&auml;r geltende Sport hat heute auch als Breitensport eine herausragende Bedeutung erlangt. Seit 1988 ist Tennis wieder Bestandteil der Olympischen Sommerspiele. </p>
+<br>
                                     </div>
                                 </div>
                             </div>
@@ -163,17 +158,17 @@
                 <br><hr id="hr"><br>
             
 
-
+<!-- footer -->
         <footer>
             <br>
                 <div class="row">
                     <div class="col-lg-1 col-sm-0"></div>
                     <div class="col-lg-1 col-sm-12">
-                        <a href="../sites/kontakt.html"><button type="button" class="btn btn-outline-primary" id="ftrbtn">Kontakt</button></a>
+                        <a href="../sites/Adresse.html"><button type="button" class="btn btn-outline-primary" id="ftrbtn">Kontakt</button></a>
                     </div>
                     <div class="col-lg-1"></div>
                     <div class="col-lg-6 col-sm-12" id="rights">
-                        © 2024 "Zeno Fuchs" | Alle Rechte Vorbehalten | Impressum
+                        © 2026 Zeno Fuchs | Alle Rechte Vorbehalten | Impressum
                     </div>
                     <div class="col-lg-2">
                     <a href="https://www.facebook.com/noseryoung/"><img id="socials1" src="../img/socialMediaIcons/facebook.png" id="fb"></a>

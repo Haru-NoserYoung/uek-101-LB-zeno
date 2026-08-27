@@ -1,5 +1,6 @@
 body {
     background-color: #101817;
+    font-family: "Google Sans", sans-serif;
 }
 
 /* Header start */
@@ -9,14 +10,12 @@ header {
 }
     /* logo */
 #hdrimg {
-    width: 30%;
+    width: 70%;
     height: auto;
     background-color: #868b8b; border-radius: 50%;
 }
     /* buttons */
-#hdrbtns {
 
-}
 
 .index {
     color: #1A2421;
@@ -39,7 +38,6 @@ header {
 }
 /* header end */
 
-/* carousel start (+text on top of it) */
 #carouselExampleAutoplaying {
     z-index: 0;
 }
@@ -51,6 +49,58 @@ header {
 
 .carousel-container {
     position: relative;
+}
+
+.carousel-text {
+    position: absolute;
+    z-index: 1;
+
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color: #F3F5F2;
+    text-align: center;
+
+    border-radius: 20px;
+}
+
+#blogbtn {
+    text-decoration: none;
+}
+
+.carousel-text2 {
+    position: absolute;
+    z-index: 1;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color: #F3F5F2;
+    text-align: center;
+
+    background-color: #8FAF9A;
+
+    border-radius: 20px;
+    width: 55%;
+}
+
+.carousel-item img {
+    width: 100%;
+    aspect-ratio: 16 / 7;
+    object-fit: cover;
+}
+/* carousel end */
+
+/*  image start */
+.carousel-container {
+    position: relative;
+}
+
+#BlogTitle {
+    z-index: 1;
+    font-size: 100%;
 }
 
 .carousel-text {
@@ -84,12 +134,13 @@ header {
     width: 55%;
 }
 
-.carousel-item img {
+.static-hero-img {
     width: 100%;
-    aspect-ratio: 16 / 7;
+    aspect-ratio: 16 / 8;
     object-fit: cover;
+    z-index: 0;
 }
-/* carousel end */
+/*  image end */
 
 /* footer start */
 footer {
@@ -152,6 +203,17 @@ footer {
     padding: 20px 0;
 }
 
+#okbtn {
+    color: #eaeeed;
+    border-color: #e6eceb;
+    border-radius: 18px;
+}
+
+#okbtn:hover {
+    background-color: #4b5554;
+    border-color: #F3F5F2;
+    color: #F3F5F2;
+}
 
 #cname, #cemail, #cnachricht {
     width: 80%;
@@ -172,7 +234,13 @@ footer {
     max-width: 150px;
     border-radius: 50px;
 }
+
+#sbtbtn:hover {
+    background-color: #4b5554;
+    border-color: #F3F5F2;
+    color: #F3F5F2;
 }
+
 
 #tic {
     color: #F3F5F2;
@@ -181,7 +249,9 @@ footer {
 /* blog */
 #img1, #img2, #img3, #img4, #img5 {
     width: 100%;
-    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
     
 }
 
@@ -203,4 +273,19 @@ footer {
 #bp1, #bp2, #bp3, #bp4, #bp5 {
     background-color: #A8B3AD;
     border-radius: 20px;
+}
+
+#bgt {
+    background-color: rgba(168, 179, 173, 0.7); 
+    z-index: 100;
+    position: relative;
+    margin-top: -70px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#imgs {
+    position: relative;
+    z-index: 2;         
+    margin-top: -200px; 
 }
