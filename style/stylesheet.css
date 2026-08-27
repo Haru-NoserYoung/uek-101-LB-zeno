@@ -10,6 +10,7 @@ header {
 #hdrimg {
     width: 30%;
     height: auto;
+    background-color: #868b8b; border-radius: 50%;
 }
     /* buttons */
 #hdrbtns {
@@ -31,6 +32,10 @@ header {
     text-decoration: none;
 }
     /* dropdown */
+#drpdwn {
+    color: #8FAF9A;
+    border-color: #8FAF9A;
+}
 /* header end */
 
 /* carousel start (+text on top of it) */
@@ -51,6 +56,20 @@ header {
     position: absolute;
     z-index: 1;
 
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color: #F3F5F2;
+    text-align: center;
+
+    border-radius: 20px;
+}
+
+.carousel-text2 {
+    position: absolute;
+    z-index: 1;
+
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -61,6 +80,7 @@ header {
     background-color: #8FAF9A;
 
     border-radius: 20px;
+    width: 55%;
 }
 
 .carousel-item img {
@@ -69,3 +89,101 @@ header {
     object-fit: cover;
 }
 /* carousel end */
+
+/* footer start */
+footer {
+    background-color: #DDE8E0;
+}
+
+/* contact */
+#ftrbtn {
+    border-color: #1A2421;
+    color: #1A2421;
+}
+
+#ftrbtn:hover {
+    background-color: #4b5554;
+    border-color: #F3F5F2;
+    color: #F3F5F2;
+}
+
+/* socials */
+#socials1 {
+    width: 15%;
+    height: auto;
+}
+#socials2 {
+    width: 15%;
+    height: auto;
+}
+#socials3 {
+    width: 15%;
+    height: auto;
+}
+#socials4 {
+    width: 15%;
+    height: auto;
+}
+
+#rowclr {
+    background-color: #1A2421;
+}
+/* footer end */
+/* contact page */
+
+#contacts {
+    background-color: #868B8B;
+    z-index: 100;
+    position: absolute;
+
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    text-align: center;
+    
+    border-radius: 20px 20px 0 0;
+    
+    width: 90%;
+    max-width: 450px;
+    height: 55%;
+    
+    padding-top: 20px;
+}
+
+/* Eingabefelder */
+#cname, #cemail, #cnachricht {
+    width: 80%;
+    max-width: 350px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+#cnachricht {
+    height: 120px;
+}
+
+/* Button */
+#sbtbtn {
+    border-color: #e6eceb;
+    color: #eaeeed;
+    width: 40%;
+    max-width: 150px;
+    border-radius: 50px;
+}
+
+#tic {
+    color: #F3F5F2;
+}
+
+/* blog */
+#img1, #img2, #img3, #img4, #img5 {
+    width: 100%;
+    border-radius: 20px;
+    
+}
+
+#txtblog {
+    color: #F3F5F2;
+    text-align: center;
+}

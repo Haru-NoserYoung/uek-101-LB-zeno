@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home | Sport Blog</title>
+        <link rel="icon" href="../img/logo/logo.png" type="image/png">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link rel="stylesheet" href="../style/stylesheet.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="container">
+                    <div class="row align-items-center" id="rbtns">
+                        
+                        <div class="col-lg-2 col-sm-12 text-center">
+                            <a href="../index.html"><img id="hdrimg" src="../img/logo/logo.png"></a>
+                        </div>
+                        <div class="col-lg-2 col-sm-12 text-center">
+                            <a class="index" href="../index.html">Index</a> 
+                        </div>
+                        <div class="col-lg-2 col-sm-12 text-center">
+                            <a class="contact" href="../sites/kontakt.html">Kontakt</a>
+                        </div>
+                        <div class="col-lg-2 col-sm-12 text-center">
+                            <a class="blog" href="../sites/blog.html">Blog</a>
+                        </div>
+                        <div class="col-lg-2 col-sm-12"></div>
+                        <div class="col-lg-2 col-sm-12 text-center">
+                            
+                            <div class="dropdown" id="drpdwn">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    ☰
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="../index.html" class="dropdown-item" >Index</a></li>
+                                    <li><a href="../sites/kontakt.html" class="dropdown-item" >Kontakt</a></li>
+                                    <li><a href="../sites/kontakt.html" class="dropdown-item" >Blog</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="carousel-container">
+
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../img/imgCarouselAndTitle/1.jpg" class="d-block w-100" alt="...">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="../img/imgCarouselAndTitle/2.jpg" class="d-block w-100" alt="...">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="../img/imgCarouselAndTitle/3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button"
+                        data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+
+                <button class="carousel-control-next" type="button"
+                        data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div>
+<!-- kontakte -->
+        <div id="contacts">
+            <br>
+            <h1 id="tic">Kontakt</h1>
+            <br>
+            <input type="text" placeholder="NAME" id="cname"><br><br>
+            <input type="text" placeholder="EMAIL" id="cemail"><br><br>
+            <textarea id="cnachricht" placeholder="NACHRICHT"></textarea><br><br>
+            <a href="../sites/versendet.html"><button type="button" class="btn btn-outline-primary" id="sbtbtn">SUBMIT</button></a>
+        </div>
+
+        <footer>
+            <br>
+                <div class="row">
+                    <div class="col-lg-1 col-sm-0"></div>
+                    <div class="col-lg-1 col-sm-12">
+                        <a href="../sites/kontakt.html"><button type="button" class="btn btn-outline-primary" id="ftrbtn">Kontakt</button></a>
+                    </div>
+                    <div class="col-lg-7 col-sm-0"></div>
+                    <div class="col-lg-2">
+                    <a href="https://www.facebook.com/noseryoung/"><img id="socials1" src="../img/socialMediaIcons/facebook.png" id="fb"></a>
+                    <a href="https://www.instagram.com/noseryoung"><img id="socials2" src="../img/socialMediaIcons/instagram.png" id="in"></a>
+                    <a href="https://de.pinterest.com/"><img id="socials3" src="../img/socialMediaIcons/pinterest.png" id="pi"></a>
+                    <a href="https://www.x.com/noseryoung"><img id="socials4" src="../img/socialMediaIcons/twitter.png" id="tw"></a>
+                    </div>
+                    <div class="col-lg-1"></div>
+                </div>
+            <br>
+            <div id="rowclr">
+            <br>
+            </div>
+        </footer>
+        <!-- \/\/Dont touch the script!!!\/\/ -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    </body>
+</html>
