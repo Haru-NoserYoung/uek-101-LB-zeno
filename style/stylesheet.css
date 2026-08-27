@@ -5,6 +5,7 @@ body {
 /* Header start */
 header {
     background-color: #DDE8E0;
+    
 }
     /* logo */
 #hdrimg {
@@ -95,6 +96,10 @@ footer {
     background-color: #DDE8E0;
 }
 
+#rights {
+    text-align: center;
+}
+
 /* contact */
 #ftrbtn {
     border-color: #1A2421;
@@ -132,44 +137,41 @@ footer {
 /* contact page */
 
 #contacts {
+    color: #5e5e5e;
     background-color: #868B8B;
     z-index: 100;
     position: absolute;
-
-    bottom: 0;
+    top: 50%;
     left: 50%;
-    transform: translateX(-50%);
-
+    transform: translate(-50%, -50%);
     text-align: center;
-    
-    border-radius: 20px 20px 0 0;
+    border-radius: 20px;
     
     width: 90%;
-    max-width: 450px;
-    height: 55%;
-    
-    padding-top: 20px;
+    max-width: 450px; 
+    padding: 20px 0;
 }
 
-/* Eingabefelder */
+
 #cname, #cemail, #cnachricht {
     width: 80%;
     max-width: 350px;
     box-sizing: border-box;
     border-radius: 5px;
+    border-color: black;
 }
 
 #cnachricht {
     height: 120px;
 }
 
-/* Button */
 #sbtbtn {
     border-color: #e6eceb;
     color: #eaeeed;
     width: 40%;
     max-width: 150px;
     border-radius: 50px;
+}
 }
 
 #tic {
@@ -184,6 +186,21 @@ footer {
 }
 
 #txtblog {
-    color: #F3F5F2;
+    color: #5e5e5e;
     text-align: center;
+}
+
+#ttlblg {
+    text-align: center;
+    color: #F3F5F2;
+    text-decoration: overline; 
+}
+
+#hr {
+    color: #F3F5F2;
+}
+
+#bp1, #bp2, #bp3, #bp4, #bp5 {
+    background-color: #A8B3AD;
+    border-radius: 20px;
 }
